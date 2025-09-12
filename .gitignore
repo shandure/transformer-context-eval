@@ -5,3 +5,5 @@ data/*
 !data/.gitkeep
 results/*
 !results/.gitkeep
+data/raw/
+*.zip
