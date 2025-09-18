@@ -5,9 +5,13 @@ Large raw data files are **not committed to GitHub** (see `.gitignore`).
 
 ### Structure
 data/
+
 ├─ raw/ # full dataset (downloaded via scripts/download_data.py)
+
 ├─ processed/ # generated CSVs (retrieval tasks, truncated prompts, etc.)
-├─ sample/ # tiny demo dataset (safe to commit)
+
+├─ sample/ # tiny demo dataset (safe to commit for testing)
+
 └─ .gitkeep # keeps folder tracked in Git
 
 
