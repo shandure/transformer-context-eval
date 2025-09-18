@@ -4,7 +4,7 @@ from urllib.request import urlretrieve
 import hashlib, zipfile
 
 
-URL = "https://github.com/shandure/transformer-conext-eval/releases/download/v1-data/function_dataset-v1.zip"
+URL = "https://github.com/shandure/transformer-context-eval/releases/download/v1-data/function_dataset-v1.zip"
 SHA256 = "5B1149569BDA059DF9E94587C93884C65959DEE417005A8D6AB921B350F69B5C"
 
 TARGET_SUBDIR = "function_dataset"  # folder name inside data/raw/
